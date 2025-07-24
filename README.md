@@ -1,18 +1,20 @@
 # <div align="center">👋 Hello World, I'm Khusham Bansal</div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=3F97F7&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
+  <a href="https://github.com/KhushamBansal">
+    <img src="https://github-readme-stats.vercel.app/api?username=KhushamBansal&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Github Stats" height="180px"/>
+  </a>
 </div>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=3F97F7&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=KhushamBansal&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph)](https://github.com/KhushamBansal)
+[![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=KhushamBansal&theme=tokyonight)](https://github.com/KhushamBansal)
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/KhushamBansal" alt="Khusham Bansal's Github Contribution Chart" />
+</div>
 
 <div align="center">
   <img src="./assets/banner.gif" alt="Banner" width="100%" />
