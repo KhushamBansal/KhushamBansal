@@ -1,31 +1,18 @@
-# <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=3F97F7&center=true&vCenter=true&random=false&width=600&height=70&lines=Hi+%F0%9F%91%8B+I'm+Khusham+Bansal" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/KhushamBansal">
-    <img src="https://github.com/KhushamBansal.png" width="100px" alt="Khusham Bansal" style="border-radius: 50%;"/>
-  </a>
-</div>
+# <div align="center">👋 Hello World, I'm Khusham Bansal</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=3F97F7&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/khushambansal/">
-    <img src="https://img.shields.io/badge/-khushambansal-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="mailto:khushambansal@gmail.com">
-    <img src="https://img.shields.io/badge/-khushambansal@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-  <a href="avivurse.tech">
-    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=google-chrome&logoColor=white" alt="Website Badge"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=KhushamBansal&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/KhushamBansal/KhushamBansal/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
-<br/>
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=KhushamBansal&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph)](https://github.com/KhushamBansal)
 
 <div align="center">
   <img src="./assets/banner.gif" alt="Banner" width="100%" />
