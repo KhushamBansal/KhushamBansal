@@ -12,12 +12,12 @@
 
 I'm passionate about creating elegant solutions to complex problems. My journey in tech has been driven by curiosity and a desire to make a positive impact through code.
 
-- 🔭 I'm currently working on [Project Name]
-- 🌱 I'm currently learning [Technology]
+- 🔭 I'm currently working on DriveSafe AI
+- 🌱 I'm currently learning AI/ML
 - 👯 I'm looking to collaborate on open source projects
 - 💬 Ask me about anything tech-related
-- 📫 How to reach me: [Your Email]
-- ⚡ Fun fact: [Interesting Fact About You]
+- 📫 How to reach me: avivurse.tech
+- ⚡ Fun fact: My longest coding session clocked in at a hyper-focused 36 hours.
 
 ## 🛠️ Tech Stack
 
@@ -57,10 +57,10 @@ I'm passionate about creating elegant solutions to complex problems. My journey 
 
 <div align="center">
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER_URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](YOUR_PORTFOLIO_URL)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khushambansal/)
+<!-- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER_URL) -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](avivurse.tech)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khushambansal@gmail.com)
 
 </div>
 
