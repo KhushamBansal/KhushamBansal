@@ -1,8 +1,8 @@
-<h1 align="center">Khusham Bansal</h1>
+<img src="./assets/banner.svg" alt="Khusham Bansal — GSoC 2026 @ Meshery (CNCF / Layer5)" width="100%" />
 
 <p align="center">
-  <b>Google Summer of Code 2026 @ Meshery (CNCF / Layer5)</b><br/>
-  I build reliable AI systems and cloud-native infrastructure — from knowledge-grounded LLMs to durable distributed queues.
+  <i>I build systems that fail well — retries, dead letters, and recovery paths,<br/>
+  whether the thing failing is a worker process or a language model.</i>
 </p>
 
 <p align="center">
@@ -28,6 +28,35 @@
 | **[relayq](https://github.com/KhushamBansal/relayq)** | Durable job queue with leased workers, exponential-backoff retries, a dead-letter queue, and idempotent enqueue. Drains **2,000 jobs at ~5.4k jobs/s**; recovers in-flight work after a worker crash. | `Go` `Redis` |
 | **[Milepost](https://github.com/KhushamBansal/eld-trip-planner)** · [live](https://eld-trip-planner-seven-mocha.vercel.app) | Plans property-carrying HGV trips and generates FMCSA driver daily logs under the 70hr/8-day HOS ruleset — routing, required stops, one log sheet per calendar day. | `Django` `DRF` `React` `TypeScript` `PostgreSQL` |
 | **Ivo** · [demo](https://drive.google.com/file/d/16pp5bbNdyEUMzRb0Fj0CA-vsOgdfV82B/view?usp=sharing) | Local AI agent with LangGraph orchestration (plan → tool calls → results) and SQLite + FTS5 RAG memory spanning semantic, episodic, and procedural recall. MCP gateway with human-in-the-loop approval on high-risk sends. | `LangGraph` `FastAPI` `React` `MCP` |
+
+### How relayq works
+
+The through-line in most of what I build is failure handling. Here's the queue,
+in one picture — leases so crashed workers don't lose jobs, backoff so retries
+don't stampede, and a dead-letter queue so nothing disappears silently.
+
+```mermaid
+flowchart LR
+    P["Producer"] -->|"idempotent enqueue"| Q[("Redis<br/>pending")]
+    Q -->|"lease · TTL"| W1["Worker 1"]
+    Q -->|"lease · TTL"| W2["Worker 2"]
+    W1 -->|"ack"| OK["Done"]
+    W2 -.->|"crash — lease expires"| Q
+    W1 -->|"nack"| R{"retries<br/>left?"}
+    R -->|"yes · exp. backoff"| Q
+    R -->|"no"| DLQ[("Dead letter")]
+
+    classDef store fill:#0b4f4a,stroke:#2dd4bf,color:#e7ebf2
+    classDef work fill:#11151e,stroke:#60a5fa,color:#e7ebf2
+    classDef term fill:#11151e,stroke:#6a7283,color:#9ba3b4
+    class Q,DLQ store
+    class W1,W2 work
+    class P,OK,R term
+```
+
+**2,000 jobs drained at ~5.4k jobs/s** with 4 workers · 200 concurrent
+idempotent requests collapsed to **1** job · in-flight work recovered after a
+worker crash. → **[github.com/KhushamBansal/relayq](https://github.com/KhushamBansal/relayq)**
 
 ### Tech
 

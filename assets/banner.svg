@@ -1,40 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#3F97F7;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
-        </linearGradient>
-        <style>
-            @keyframes float {
-                0% { transform: translateY(0px); }
-                50% { transform: translateY(-20px); }
-                100% { transform: translateY(0px); }
-            }
-            .floating {
-                animation: float 6s ease-in-out infinite;
-            }
-        </style>
-    </defs>
-    
-    <!-- Background -->
-    <rect width="100%" height="100%" fill="url(#grad1)"/>
-    
-    <!-- Grid Pattern -->
-    <path d="M0 50 L1200 50 M0 100 L1200 100 M0 150 L1200 150 M0 200 L1200 200 M0 250 L1200 250"
-          stroke="white" stroke-width="0.5" stroke-opacity="0.1"/>
-    
-    <!-- Main Text -->
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
-          fill="white" font-family="Arial" font-size="48" font-weight="bold" class="floating">
-        Khusham Bansal | Software Engineer
-    </text>
-    
-    <!-- Decorative Elements -->
-    <circle cx="200" cy="150" r="30" fill="white" fill-opacity="0.1"/>
-    <circle cx="1000" cy="150" r="50" fill="white" fill-opacity="0.1"/>
-    
-    <!-- Code Symbols -->
-    <text x="100" y="280" fill="white" font-family="monospace" font-size="24" fill-opacity="0.5">&lt;/&gt;</text>
-    <text x="1100" y="50" fill="white" font-family="monospace" font-size="24" fill-opacity="0.5">{}</text>
-</svg> 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Khusham Bansal — GSoC 2026 at Meshery (CNCF/Layer5)">
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#a8fff0"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b4f4a"/>
+      <stop offset="100%" stop-color="#148070"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="#07080c"/>
+  <ellipse cx="150" cy="140" rx="210" ry="170" fill="url(#glow)"/>
+  <ellipse cx="1010" cy="60" rx="260" ry="150" fill="url(#glow)" opacity="0.45"/>
+
+  <!-- prism: same mark as the site favicon -->
+  <g>
+    <polygon points="112.2,118.2 150,96.3 187.8,118.2 150,140" fill="url(#top)"/>
+    <polygon points="187.8,118.2 187.8,161.8 150,183.7 150,140" fill="url(#right)"/>
+    <polygon points="150,183.7 112.2,161.8 112.2,118.2 150,140" fill="url(#left)"/>
+    <path d="M150 140 112.2 118.2M150 140 187.8 118.2M150 140V183.7"
+          stroke="#07080c" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <rect x="250" y="88" width="30" height="3" rx="1.5" fill="#2dd4bf"/>
+
+  <text x="250" y="142" font-family="Verdana,DejaVu Sans,sans-serif" font-size="44" font-weight="700" fill="#f4f5f7" letter-spacing="-1">Khusham Bansal</text>
+  <text x="252" y="176" font-family="Verdana,DejaVu Sans,sans-serif" font-size="17" fill="#9ba3b4">GSoC 2026 @ Meshery — CNCF / Layer5</text>
+  <text x="252" y="202" font-family="Verdana,DejaVu Sans,sans-serif" font-size="17" fill="#9ba3b4">AI reliability · Distributed systems</text>
+  <text x="252" y="232" font-family="Courier New,monospace" font-size="14" fill="#2dd4bf">khushambansal.me</text>
+</svg>
